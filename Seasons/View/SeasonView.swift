@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SeasonView: View{
-    let proviedSeason: Season
+    let providedSeason: Season
     var body: some View{
         HStack{
             VStack(alignment:.leading){
@@ -16,7 +16,7 @@ struct SeasonView: View{
                 Spacer()
             }
             VStack{
-                Text(proviedSeason.seasonName)
+                Text(providedSeason.name)
             }
             
         }
@@ -24,5 +24,5 @@ struct SeasonView: View{
 
 }
 #Preview{
-    SeasonView(proviedSeason: Spring)
+    SeasonView(providedSeason: spring)
 }
