@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SeasonListView.swift
 //  Seasons
 //
 //  Created by Fang Elaine on 2024/11/20.
