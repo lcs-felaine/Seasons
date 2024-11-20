@@ -13,10 +13,14 @@ struct SeasonView: View{
         HStack{
             VStack(alignment:.leading){
                 Image(systemName: "cloud.drizzle.fill")
+                    .resizable()
+                    .frame(width:80, height: 80)
                 Spacer()
             }
-            VStack{
+            VStack(alignment: .leading){
                 Text(providedSeason.name)
+                Text(providedSeason.virtue)
+                Spacer()
             }
             
         }
